@@ -6,7 +6,5 @@ import org.jetbrains.exposed.dao.id.EntityID
 
 class Group(id: EntityID<Int>) : IntEntity(id) {
     var groupNum by Groups.groupNum
-
     companion object : IntEntityClass<Group>(Groups)
-
 }

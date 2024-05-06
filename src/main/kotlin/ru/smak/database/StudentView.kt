@@ -8,4 +8,5 @@ data class StudentView(
     var lastName: String,
     var admYear: Int,
     var birth: LocalDate,
+    var groupNum: String,
 )

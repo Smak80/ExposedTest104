@@ -9,6 +9,7 @@ class Student(id: EntityID<Int>) : IntEntity(id) {
     var lastName by Students.lastName
     var admYear by Students.admYear
     var birth by Students.birth
+    var groupId by Students.groupId
 
     companion object : IntEntityClass<Student>(Students)
 }
